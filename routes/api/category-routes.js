@@ -58,6 +58,26 @@ router.post("/", (req, res) => {
 
 router.put("/:id", (req, res) => {
   // update a category by its `id` value
+  Category.update({
+    where: {
+      id: req.params.id,
+    },
+  }).then((result) => {
+    console.log(result);
+    if (!result) {
+      return res
+        .status(400)
+        .send(`Category with ID: ${req.params.id} could not be found.`);
+    }
+
+    // Category.update({
+    //   where: {
+    //     id: req.params.id,
+    //   },
+    // }).then((result) => {
+    // });
+    // res.status(200).json(result);
+  });
 });
 
 router.delete("/:id", (req, res) => {
