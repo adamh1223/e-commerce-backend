@@ -18,9 +18,23 @@ Welcome to E-commerce Back End! This application contains an interactive databas
 
 ## Installation
 
-Ensure that you've download the necessary dependencies by giving the command npm i. This project utilizes Dotenv, express, MySQL, and Sequelize. Add a gitignore file, and add node_modules to it.
+Ensure that you've download the necessary dependencies by giving the command npm i. This project utilizes Dotenv, express, MySQL, and Sequelize. Add a gitignore file, and add node_modules to it. You will need to download Insomnia to test routes on it.
 
 ## Usage
+
+To use the application, install your packages using "npm i", and then start the server with the command "node server". Once the server is live, open up Insomnia to test the routes. You can GET, CREATE, DELETE, and UPDATE 3 things: Categories, Products, and Tags.
+
+For product routes, use the base url:
+
+http://localhost:3001/api/products
+
+For category routes, use the base url:
+
+http://localhost:3001/api/categories
+
+For tag routes, use the base url:
+
+http://localhost:3001/api/tags
 
 ## Contributing
 
@@ -65,9 +79,12 @@ Built with:
 - Dotenv
 - MySQL
 - Sequelize
+- Insomnia
 
 ## Link to GitHub Repository
 
-## Link to deployed application
+https://github.com/adamh1223/e-commerce-backend
 
-### <p align="center">[Back to Top](#e-commerce-backend)</p>
+## Link to video demonstration
+
+### <p align="center">[Back to Top](#e-commerce-back-end)</p>
