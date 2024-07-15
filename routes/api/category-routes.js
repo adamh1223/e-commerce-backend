@@ -76,7 +76,7 @@ router.put("/:id", (req, res) => {
         .status(400)
         .send(`Category with ID: ${req.params.id} could not be found.`);
     }
-    res.status(200).json(result);
+    res.status(200).json({ message: "Category updated." });
   });
 });
 
@@ -94,7 +94,7 @@ router.delete("/:id", (req, res) => {
         .status(400)
         .send(`Category with ID: ${req.params.id} could not be found.`);
     }
-    res.status(200).json(result);
+    res.status(200).json({ message: "Category deleted." });
   });
 });
 
