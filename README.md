@@ -87,4 +87,6 @@ https://github.com/adamh1223/e-commerce-backend
 
 ## Link to video demonstration
 
+https://vimeo.com/984459436
+
 ### <p align="center">[Back to Top](#e-commerce-back-end)</p>
